@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #F7F5FB;
+    display: grid;
+    place-items: center;
+}
+
+.center{
+    text-align: center;
+}
+
+#main{
+    background-color: green;
+    border-radius: 5px;
+    /* width: 60vw;
+    height: 80vh; */
+    margin: 30px 8px;
+}
+
+#img-div{
+    display: grid;
+    place-items: center;
+    background-color: white;
+}
+
+#image{
+    display: block;
+    max-width: 50%;
+    height: auto;
+}
