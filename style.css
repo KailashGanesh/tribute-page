@@ -6,33 +6,43 @@
     padding:0;
 }
 
+:root{
+    --box-bg-color:lightgray;
+    --page-bg-color: white;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     background-color: #F7F5FB;
+    background-color: var(--page-bg-color);
     display: grid;
     place-items: center;
 }
 
 .center{
-    text-align: center;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #main{
-    background-color: green;
+    background-color: var(--box-bg-color);
     border-radius: 5px;
-    /* width: 60vw;
-    height: 80vh; */
     margin: 30px 8px;
 }
 
 #img-div{
     display: grid;
     place-items: center;
-    background-color: white;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: var(--page-bg-color);
 }
 
 #image{
     display: block;
     max-width: 50%;
     height: auto;
+    border-radius: 5px;
 }

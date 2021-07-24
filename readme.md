@@ -1,0 +1,1 @@
+image from http://vignette1.wikia.nocookie.net/breakingbad/images/4/43/Season_2_promo_pic_4.jpg/revision/latest?cb=20120617212256
