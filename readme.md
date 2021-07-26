@@ -5,7 +5,7 @@
 - [x] space everything
 - [ ] add Content
 - [x] make it mobile responsive
-- [ ] color scheme more breaking bad colors
+- [x] color scheme ~~more breaking bad colors~~ from photo
 
 
 ### Reference
